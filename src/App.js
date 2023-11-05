@@ -1,5 +1,5 @@
-import Navigation from "./Navigation";
-import Home from "./Home";
+import Navigation from "./navigation/Navigation";
+import Home from "./Home/Home";
 
 function App() {
   return (
