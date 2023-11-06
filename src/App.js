@@ -4,7 +4,10 @@ import Home from "./Home/Home";
 function App() {
   return (
     <div>
-      <Navigation></Navigation>
+      <header className="absolute inset-x-0 top-0 z-50">
+        <Navigation></Navigation>
+      </header>
+
       <Home></Home>
     </div>
   );
